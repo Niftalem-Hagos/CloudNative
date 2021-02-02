@@ -10,5 +10,10 @@ public class CustomerService {
     private final DataSource dataSource = new EmbeddedDatabaseBuilder()
             .setName("Customer").setType(EmbeddedDatabaseType.H2).build();
 
+    public static void main(String args[]) throws Throwable {
+        CustomerService customerService = new CustomerService();
 
+
+
+    }
 }
